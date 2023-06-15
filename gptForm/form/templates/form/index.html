@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>test form with AI</title>
+  </head>
+
+  <body>
+    <h1>Virtual assistant</h1>
+    <button>context A</button>
+    <button>context B</button>
+    <button>context C</button>
+    <form method="POST">
+      <textarea
+        type="text"
+        name="prompt"
+        placeholder="Que voulez-vous?"
+      ></textarea>
+      <br />
+      <button type="submit" value="fichier_a" name="activity">fichier_a</button>
+      <button type="submit" value="fichier_b" name="activity">fichier_b</button>
+      <button type="submit" value="fichier_c" name="activity">fichier_c</button>
+    </form>
+
+    <p>{{ GPT_respons }}</p>
+
+  </body>
+</html>
